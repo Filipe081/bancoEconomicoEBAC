@@ -130,6 +130,7 @@ int main()
 	    printf("\t1 - Registrar usuário\n");
 	    printf("\t2 - Consutar usuário\n");
 	    printf("\t3 - Apagar usuário\n\n");
+	    printf("\t4 Sair do Sistema");
 	    printf("Opção: ");//fim do menu
 	
 	    scanf("%d" , &opcao);  //amarzenando a escolha do usuário
@@ -149,6 +150,11 @@ int main()
 		    
 		    case 3:
 		    apagar();
+		    break;
+		    
+		    case 4:
+		    printf("Obrigado por utilizar nosso sistema!\n");
+		    return 0;
 		    break;
    
 		    default:
